@@ -2,7 +2,7 @@
   <div>
     <div v-bind:key="product.id" v-for="product in products">
       <h3>{{ product.name }}</h3>
-      {{ product.description }}
+      <p>{{ product.description }}</p>
       <p>{{ product.price }}</p>
       <button>ADD TO CART</button>
     </div>
